@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.NPCs
+namespace ZylonFanExpansion.NPCS
 {
 	
 	public class Jester_He_Walcc : ModNPC
