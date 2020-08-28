@@ -27,6 +27,9 @@ namespace ZylonFanExpansion.Items.Pufferfish
 			item.autoReuse = true;
 			item.ranged = true;
 			item.UseSound = SoundID.Item1;
+			item.shoot = mod.ProjectileType("PufferfishSpike");
+			item.shootSpeed = 12f;
+			item.maxStack = 999;
 		}
 	}
 }

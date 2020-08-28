@@ -1,10 +1,12 @@
-Zylon Mod Fan Expansion is a fan mod worked on by several people.
+Zylon Mod Fan Expansion is a fan mod worked on by several people. Note: Much of the content in this mod is different than Zylon and other content mods.
+Zylon Mod must be enabled for this mod to work.
 
 Content:
-~
+~6 Items
+~1 NPC
 
 Developers:
-~BraycoeYT (Manager, Original Mod, Programming)
+~BraycoeYT (General Management, Original Mod, Programming)
 ~Pufferfisher77 (Spriter, Ideas)
 ~Guber Gumphry (Spriter, Ideas)
 ~Polar (Spriter, Ideas, Programming)
