@@ -1,4 +1,5 @@
 Cesium Mod is a mod worked on by several people. THe mod is rather small at the moment.
+Discord server link (terraria forums link is easier): https://discord.gg/JWvrqtz
 
 Content:
 ~6 Items
@@ -12,5 +13,5 @@ Developers:
 ~Guber Gumphry (Spriter, Ideas)
 ~NIYU (Spriter, Ideas)
 
-Update V0.0.0.2: Logo Update
-~Added logo
+Update V0.0.0.3: Homepage Fix
+~Homepage Fix

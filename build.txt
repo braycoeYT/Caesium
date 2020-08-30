@@ -1,7 +1,7 @@
 displayName = [c/E8E076:Cesium] Mod
 author = Cesium Developers
-version = 0.0.0.2
+version = 0.0.0.3
 hideCode = true;
 hideResources = true;
 includeSource = false;
-homepage = https://forums.terraria.org/index.php?threads/zylon-mod-terraria.87521/
+homepage = https://forums.terraria.org/index.php?threads/cesium-mod-terraria.97497/
