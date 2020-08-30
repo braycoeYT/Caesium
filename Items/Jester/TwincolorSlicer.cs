@@ -2,21 +2,21 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ZylonFanExpansion.Items.Jester
+namespace Cesium.Items.Jester
 {
 	public class TwincolorSlicer : ModItem
 	{
 		public override void SetDefaults() {
-			item.damage = 10;
+			item.damage = 11;
 			item.melee = true;
 			item.width = 33;
 			item.height = 33;
 			item.useTime = 24;
 			item.useAnimation = 24;
-			item.useStyle = 1;
+			item.useStyle = ItemUseStyleID.SwingThrow;
 			item.knockBack = 4.2f;
 			item.value = Item.sellPrice(0, 0, 15, 0);
-			item.rare = 0;
+			item.rare = ItemRarityID.White;
 			item.UseSound = SoundID.Item1;
 			item.autoReuse = true;
 			item.useTurn = true;

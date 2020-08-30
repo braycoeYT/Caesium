@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ZylonFanExpansion.Items.Marble
+namespace Cesium.Items.Marble
 {
 	public class MarbleGreatsword : ModItem
 	{
@@ -13,10 +13,10 @@ namespace ZylonFanExpansion.Items.Marble
 			item.height = 40;
 			item.useTime = 41;
 			item.useAnimation = 41;
-			item.useStyle = 1;
+			item.useStyle = ItemUseStyleID.SwingThrow;
 			item.knockBack = 5.6f;
 			item.value = Item.sellPrice(0, 0, 35, 0);
-			item.rare = 1;
+			item.rare = ItemRarityID.Blue;
 			item.UseSound = SoundID.Item1;
 			item.autoReuse = true;
 			item.useTurn = true;

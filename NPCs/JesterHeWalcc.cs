@@ -2,9 +2,8 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ZylonFanExpansion.NPCs
+namespace Cesium.NPCs
 {
-	
 	public class JesterHeWalcc : ModNPC
 	{
 		public override void SetStaticDefaults() {
@@ -41,21 +40,21 @@ namespace ZylonFanExpansion.NPCs
 			npc.spriteDirection = npc.direction;
 		}
 		public override float SpawnChance(NPCSpawnInfo spawnInfo) {
-			return SpawnCondition.OverworldNightMonster.Chance * 0.08f;
+			return SpawnCondition.OverworldNightMonster.Chance * 0.12f;
 		}
 		public override void HitEffect(int hitDirection, double damage) {
 			for (int i = 0; i < 10; i++) {
 				int dustType = Main.rand.Next(139, 143);
 				int dustIndex = Dust.NewDust(npc.position, npc.width, npc.height, dustType);
 				Dust dust = Main.dust[dustIndex];
-				dust.velocity.X = dust.velocity.X + Main.rand.Next(-50, 51) * 0.01f;
-				dust.velocity.Y = dust.velocity.Y + Main.rand.Next(-50, 51) * 0.01f;
+				dust.velocity.X += Main.rand.Next(-50, 51) * 0.01f;
+				dust.velocity.Y += Main.rand.Next(-50, 51) * 0.01f;
 				dust.scale *= 2f + Main.rand.Next(-30, 31) * 0.01f;
 			}
 		}
 		public override void NPCLoot() {
 			Item.NewItem(npc.getRect(), ItemID.Confetti, Main.rand.Next(5, 11));
-			if (Main.rand.NextFloat() < .03f)
+			if (Main.rand.NextFloat() < .09f)
 			Item.NewItem(npc.getRect(), mod.ItemType("TwincolorSlicer"));
 		}
 	}

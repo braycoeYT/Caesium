@@ -1,8 +1,7 @@
-displayName = [c/00AEFF:Zylon] Mod [c/FF0073:Fan Expansion]
-author = Zylon Mod Fan Devs
+displayName = [c/E8E076:Cesium] Mod
+author = Cesium Developers
 version = 0.0.0.1
 hideCode = true;
-homepage = https://forums.terraria.org/index.php?threads/zylon-mod-terraria.87521/
 hideResources = true;
 includeSource = false;
-modReferences = Zylon
+homepage = https://forums.terraria.org/index.php?threads/zylon-mod-terraria.87521/
