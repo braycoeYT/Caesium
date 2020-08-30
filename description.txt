@@ -1,4 +1,4 @@
-Cesium Mod is a mod worked on by several people. THe mod is rather small at the moment
+Cesium Mod is a mod worked on by several people. THe mod is rather small at the moment.
 
 Content:
 ~6 Items
@@ -12,8 +12,5 @@ Developers:
 ~Guber Gumphry (Spriter, Ideas)
 ~NIYU (Spriter, Ideas)
 
-Update V0.0.0.1: First Release
-~Added jester enemy and a sword drop
-~Added a couple unobtainable items
-~Added Marble Greatsword
-~Added Bloody and Corrupt Discs
+Update V0.0.0.2: Logo Update
+~Added logo
