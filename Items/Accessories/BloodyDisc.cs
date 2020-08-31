@@ -7,7 +7,7 @@ namespace Cesium.Items.Accessories
 	public class BloodyDisc : ModItem
 	{
 		public override void SetStaticDefaults() {
-			Tooltip.SetDefault("Increases melee speed by 7%\nIncreases melee critical strike chance by 4%");
+			Tooltip.SetDefault("Gives the player weak lifesteal.");
 		}
 		public override void SetDefaults() {
 			item.width = 40;
@@ -17,8 +17,8 @@ namespace Cesium.Items.Accessories
 			item.accessory = true;
 		}
 		public override void UpdateAccessory(Player player, bool hideVisual) {
-			player.meleeSpeed += 0.07f;
-			player.meleeCrit += 4;
+			CesiumPlayer p = player.GetModPlayer<CesiumPlayer>();
+			p.bloodyDisc = true;
 		}
 	}
 }

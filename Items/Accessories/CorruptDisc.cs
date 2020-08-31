@@ -7,7 +7,7 @@ namespace Cesium.Items.Accessories
 	public class CorruptDisc : ModItem
 	{
 		public override void SetStaticDefaults() {
-			Tooltip.SetDefault("Increases melee speed by 4%\nIncreases melee critical strike chance by 7%");
+			Tooltip.SetDefault("Increases melee speed by 8%\nIncreases melee critical strike chance by 2%");
 		}
 		public override void SetDefaults() {
 			item.width = 40;
@@ -17,8 +17,8 @@ namespace Cesium.Items.Accessories
 			item.accessory = true;
 		}
 		public override void UpdateAccessory(Player player, bool hideVisual) {
-			player.meleeSpeed += 0.04f;
-			player.meleeCrit += 7;
+			player.meleeSpeed += 0.08f;
+			player.meleeCrit += 2;
 		}
 	}
 }

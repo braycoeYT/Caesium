@@ -1,9 +1,10 @@
-Cesium Mod is a mod worked on by several people. THe mod is rather small at the moment.
+Cesium Mod is a mod worked on by several people. The mod is rather small at the moment.
 Discord server link (terraria forums link is easier): https://discord.gg/JWvrqtz
 
 Content:
-~6 Items
+~17 Items
 ~1 NPC
+~3 Tiles
 
 Developers:
 ~BraycoeYT (Spriter, Ideas, Programming)
@@ -13,5 +14,7 @@ Developers:
 ~Guber Gumphry (Spriter, Ideas)
 ~NIYU (Spriter, Ideas)
 
-Update V0.0.0.3: Homepage Fix
-~Homepage Fix
+Update V0.0.0.4: Zinc Update
+~Updated logo
+~Changed Corrupt and Bloody discs and made them rare drops from corruption/crimson enemies
+~Added Zinc, an alternate to iron/lead

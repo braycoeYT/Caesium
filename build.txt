@@ -1,6 +1,6 @@
 displayName = [c/E8E076:Cesium] Mod
 author = Cesium Developers
-version = 0.0.0.3
+version = 0.0.0.4
 hideCode = true;
 hideResources = true;
 includeSource = false;
