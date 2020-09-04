@@ -2,19 +2,19 @@ Cesium Mod is a mod worked on by several people. The mod is rather small at the 
 Discord server link (terraria forums link is easier): https://discord.gg/JWvrqtz
 
 Content:
-~17 Items
+~18 Items
 ~1 NPC
 ~3 Tiles
 
 Developers:
 ~BraycoeYT (Spriter, Ideas, Programming)
 ~Polar (Spriter, Ideas, Programming)
-~SGT. Raccoon (Spriter, Ideas, Programming)
 ~Pufferfisher77 (Spriter, Ideas)
 ~Guber Gumphry (Spriter, Ideas)
 ~NIYU (Spriter, Ideas)
 
-Update V0.0.0.4: Zinc Update
-~Updated logo
-~Changed Corrupt and Bloody discs and made them rare drops from corruption/crimson enemies
-~Added Zinc, an alternate to iron/lead
+~SGT. Raccoon (Quit)
+
+Update V0.0.0.5:
+~Changed name to more common spelling, Caesium
+~Added Granite Beamsword

@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace Cesium.Tiles.Zinc
+namespace Caesium.Tiles.Zinc
 {
 	public class ZincOre : ModTile
 	{

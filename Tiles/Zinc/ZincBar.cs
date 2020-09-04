@@ -5,7 +5,7 @@ using Terraria.ModLoader;
 using Terraria.ObjectData;
 using static Terraria.ModLoader.ModContent;
 
-namespace Cesium.Tiles.Zinc
+namespace Caesium.Tiles.Zinc
 {
 	public class ZincBar : ModTile
 	{

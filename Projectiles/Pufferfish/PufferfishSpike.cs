@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Cesium.Projectiles.Pufferfish
+namespace Caesium.Projectiles.Pufferfish
 {
 	public class PufferfishSpike : ModProjectile
 	{

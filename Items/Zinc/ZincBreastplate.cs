@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Cesium.Items.Zinc
+namespace Caesium.Items.Zinc
 {
 	[AutoloadEquip(EquipType.Body)]
 	public class ZincBreastplate : ModItem

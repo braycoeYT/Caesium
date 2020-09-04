@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Cesium.Items.Accessories
+namespace Caesium.Items.Accessories
 {
 	public class BloodyDisc : ModItem
 	{
@@ -17,7 +17,7 @@ namespace Cesium.Items.Accessories
 			item.accessory = true;
 		}
 		public override void UpdateAccessory(Player player, bool hideVisual) {
-			CesiumPlayer p = player.GetModPlayer<CesiumPlayer>();
+			CaesiumPlayer p = player.GetModPlayer<CaesiumPlayer>();
 			p.bloodyDisc = true;
 		}
 	}

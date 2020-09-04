@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
-namespace Cesium.Tiles.Zinc
+namespace Caesium.Tiles.Zinc
 {
     public class ZincAnvil : ModTile
     {

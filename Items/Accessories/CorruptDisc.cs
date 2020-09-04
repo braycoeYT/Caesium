@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Cesium.Items.Accessories
+namespace Caesium.Items.Accessories
 {
 	public class CorruptDisc : ModItem
 	{

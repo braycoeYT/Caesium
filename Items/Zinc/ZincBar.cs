@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace Cesium.Items.Zinc
+namespace Caesium.Items.Zinc
 {
 	public class ZincBar : ModItem
 	{

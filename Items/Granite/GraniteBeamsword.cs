@@ -2,30 +2,31 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Caesium.Items.Marble
+namespace Caesium.Items.Granite
 {
-	public class MarbleGreatsword : ModItem
+	public class GraniteBeamsword : ModItem
 	{
 		public override void SetDefaults() {
-			item.damage = 26;
+			item.damage = 14;
 			item.melee = true;
 			item.width = 40;
 			item.height = 40;
-			item.useTime = 41;
-			item.useAnimation = 41;
+			item.useTime = 23;
+			item.useAnimation = 23;
 			item.useStyle = ItemUseStyleID.SwingThrow;
-			item.knockBack = 5.6f;
+			item.knockBack = 4.75f;
 			item.value = Item.sellPrice(0, 0, 50, 0);
 			item.rare = ItemRarityID.Blue;
 			item.UseSound = SoundID.Item1;
 			item.autoReuse = true;
 			item.useTurn = true;
+			item.shoot = mod.ProjectileType("GraniteBeamswordBeam");
+			item.shootSpeed = 8f;
 		}
-		public override void AddRecipes() 
-		{
+		public override void AddRecipes() {
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.Marble, 22);
-			recipe.AddIngredient(ItemID.GoldBar, 8);
+			recipe.AddIngredient(ItemID.Granite, 22);
+			recipe.AddIngredient(ItemID.PlatinumBar, 8);
 			recipe.AddTile(TileID.Anvils);
 			recipe.SetResult(this);
 			recipe.AddRecipe();

@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
 
-namespace Cesium.Items.Pufferfish
+namespace Caesium.Items.Pufferfish
 {
 	[AutoloadEquip(EquipType.Head)]
 	public class Pufferfish77Mask : ModItem

@@ -2,7 +2,7 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace Cesium.Dusts
+namespace Caesium.Dusts
 {
 	public class ZincDust : ModDust
 	{
