@@ -15,6 +15,5 @@ Developers:
 
 ~SGT. Raccoon (Quit)
 
-Update V0.0.0.5:
-~Changed name to more common spelling, Caesium
-~Added Granite Beamsword
+Update V0.0.0.6: Logo Update
+~Updated Logo
