@@ -15,5 +15,5 @@ Developers:
 
 ~SGT. Raccoon (Quit)
 
-Update V0.0.0.6: Logo Update
+Update V0.0.0.7: Logo Update
 ~Updated Logo
