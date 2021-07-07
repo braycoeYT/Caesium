@@ -1,12 +1,19 @@
-Zylon Mod Fan Expansion is a fan mod worked on by several people.
+Cesium Mod is a mod worked on by several people. THe mod is rather small at the moment
 
 Content:
-~
+~6 Items
+~1 NPC
 
 Developers:
-~BraycoeYT (Manager, Original Mod, Programming)
-~Pufferfisher77 (Spriter, Ideas)
-~Guber Gumphry (Spriter, Ideas)
+~BraycoeYT (Spriter, Ideas, Programming)
 ~Polar (Spriter, Ideas, Programming)
 ~SGT. Raccoon (Spriter, Ideas, Programming)
-~NIYU (Spriter)
+~Pufferfisher77 (Spriter, Ideas)
+~Guber Gumphry (Spriter, Ideas)
+~NIYU (Spriter, Ideas)
+
+Update V0.0.0.1: First Release
+~Added jester enemy and a sword drop
+~Added a couple unobtainable items
+~Added Marble Greatsword
+~Added Bloody and Corrupt Discs

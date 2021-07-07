@@ -2,16 +2,14 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ZylonFanExpansion.Items.Pufferfish
+namespace Cesium.Items.Pufferfish
 {
 	public class PufferfishSpike : ModItem
 	{
-		public override void SetStaticDefaults()
-		{
+		public override void SetStaticDefaults() {
 			Tooltip.SetDefault("Can poison enemies");
 		}
-		public override void SetDefaults()
-		{
+		public override void SetDefaults() {
 			item.width = 20;
 			item.height = 40;
 			item.value = item.value = Item.sellPrice(0, 0, 0, 75);
@@ -27,6 +25,9 @@ namespace ZylonFanExpansion.Items.Pufferfish
 			item.autoReuse = true;
 			item.ranged = true;
 			item.UseSound = SoundID.Item1;
+			item.shoot = mod.ProjectileType("PufferfishSpike");
+			item.shootSpeed = 12f;
+			item.maxStack = 999;
 		}
 	}
 }
